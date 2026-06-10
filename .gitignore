@@ -1,0 +1,75 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Environment Variables
+.env
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build Files
+build/
+dist/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# Logs
+*.log
+
+# SQLite Databases
+*.db
+*.sqlite3
+
+# LangGraph Checkpoints
+checkpoints/
+*.sqlite
+
+# Coverage Reports
+.coverage
+htmlcov/
+
+# Test Cache
+.pytest_cache/
+
+# MyPy
+.mypy_cache/
+
+# Ruff
+.ruff_cache/
+
+# LangSmith (if local files generated)
+.langsmith/
+
+# Temporary Files
+tmp/
+temp/
+
+# Node (if frontend added later)
+node_modules/
+
+# Generated Reports
+reports/
+outputs/
+
+# Secrets
+secrets.json
+credentials.json
+service-account.json
