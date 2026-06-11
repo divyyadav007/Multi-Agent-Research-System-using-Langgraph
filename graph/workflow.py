@@ -2,7 +2,7 @@
 from langgraph.graph import StateGraph, START, END
 from langgraph.constants import Send
 from state import ResearchState
-
+from langgraph.checkpoint.memory import MemorySaver # 1. Memory import ki
 from agents.researcher import researcher
 from agents.writer import writer
 from agents.planner import planner
@@ -21,6 +21,9 @@ def route_after_checking(state: ResearchState):
     else:
         print("✅ Report Approved!")
         return END  # Finish the process
+
+#checkpointer initialization
+memory = MemorySaver()
 
 builder = StateGraph(ResearchState)
 
@@ -52,4 +55,7 @@ builder.add_conditional_edges(
     }
 )
 
-graph = builder.compile()
+graph = builder.compile(
+    checkpointer=memory,
+    interrupt_before=["researcher"]
+)
