@@ -335,7 +335,7 @@ to create a more robust research workflow.
 
 **Divyansh Yadav**
 
-B.Tech – Artificial Intelligence & Data Science
+B.Tech – CSE(Artificial Intelligence)
 
 Interested in:
 
