@@ -36,7 +36,7 @@ Reports failing validation are routed back to the Writer Agent with targeted fee
 
 ## 📐 System Architecture
 
-<img width="2720" height="2480" alt="langgraph_workflow_diagram" src="https://github.com/user-attachments/assets/4468f062-78fc-4df7-9778-7620d44d1035" />
+<img width="2100" height="2026" alt="image" src="https://github.com/user-attachments/assets/da0889fe-a3a9-4263-b409-9159d6bb9368" />
 
 ---
 
